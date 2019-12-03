@@ -6,15 +6,15 @@ class App extends Component {
   state = {
     contacts: [
       {
-        name: 'Nilgün',
+        name: 'Denemea',
         number: '456789909876'
       },
       {
-        name: 'Nilay',
+        name: 'Denemeb',
         number: '2345'
       },
       {
-        name: 'Alperen',
+        name: 'Denemec',
         number: '34543356'
       }
     ]
@@ -28,11 +28,7 @@ class App extends Component {
     })
 
   }
-  
-
   render() {
-
-
     return (
       <div className="container">
         <Contacts
