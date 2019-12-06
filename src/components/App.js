@@ -11,7 +11,7 @@ class App extends Component {
       },
       {
         name: 'Denemeb',
-        number: '2345'
+        number: '234545'
       },
       {
         name: 'Denemec',
