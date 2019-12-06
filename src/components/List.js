@@ -5,14 +5,17 @@ class List extends Component {
     static propTypes = {
         contacts: PropTypes.array.isRequired
     }
+
     state = {
         filterText: ''
     }
+
     onChageFilterText = (e) => {
         this.setState({
             filterText: e.target.value
         })
     }
+
     render() {
         const filteredContacts = this.props.contacts.filter(
             contact => {
@@ -35,7 +38,7 @@ class List extends Component {
                         value={this.state.filterText}
                         onChange={this.onChageFilterText}
                         className="form-control"
-                        aria-describedby="filter"></input>
+                        aria-describedby="filter" />
 
                 </div>
                 <br />
