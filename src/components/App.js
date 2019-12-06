@@ -7,7 +7,7 @@ class App extends Component {
     contacts: [
       {
         name: 'Denemea',
-        number: '456789909876'
+        number: '456789909'
       },
       {
         name: 'Denemeb',
